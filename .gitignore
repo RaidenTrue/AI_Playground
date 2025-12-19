@@ -1,0 +1,27 @@
+# Ignore Binaries and Intermediate folders
+Binaries/
+Intermediate/
+Saved/
+
+# Ignore Visual Studio files (if you use VS)
+*.sln
+*.vcxproj*
+*.user
+*.opensdf
+*.sdf
+*.ipch
+*.pdb
+*.idb
+*.vs
+
+# Unreal Engine Cache
+*DerivedDataCache/
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore Thumbs.db
+Thumbs.db
+
+# Ignore build outputs and logs
+*.log
