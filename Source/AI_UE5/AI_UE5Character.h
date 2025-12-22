@@ -13,6 +13,8 @@ class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
 
+class UBehaviorData;
+
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS(config=Game)
@@ -47,6 +49,8 @@ class AAI_UE5Character : public ACharacter
 public:
 	AAI_UE5Character();
 	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="AI")
+	UBehaviorData* BehaviorData;
 
 protected:
 
