@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class AI_UE5_API UBehaviorData : public UDataAsset
 {
 	GENERATED_BODY()
